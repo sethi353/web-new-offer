@@ -1,0 +1,42 @@
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+header{
+    background-image: url('../images/Banner Image.png'); /* fixed path */
+    background-size: cover; /* make image cover the full header */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* prevent repetition */
+    height: 75vh; /* or set a fixed height like 500px */
+    margin: 0; /* optional: remove outer spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contents{
+    text-align: center;
+     
+     
+    
+}
+
+.nav-title{
+    font-size: 15px;
+    color: #FFFFFF;
+    
+    
+}
+.nav-heading{
+    font-size: 40px;
+    
+    color: #FFFFFF;
+}
