@@ -7,36 +7,119 @@
   font-variation-settings:
     "wdth" 100;
 }
+  
 
 
-header{
-    background-image: url('../images/Banner Image.png'); /* fixed path */
-    background-size: cover; /* make image cover the full header */
-    background-position: center; /* center the image */
-    background-repeat: no-repeat; /* prevent repetition */
-    height: 75vh; /* or set a fixed height like 500px */
-    margin: 0; /* optional: remove outer spacing */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.contents{
+nav{
     text-align: center;
-     
-     
+    justify-content: center;
+    padding: 170px;
+    justify-content: space-between;
     
 }
+
 
 .nav-title{
-    font-size: 15px;
-    color: #FFFFFF;
-    
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 10px;
     
 }
+
 .nav-heading{
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+    margin-top: 0px;
+}
+
+header{
+    background-image: url(../images/Banner\ Image.png);
+    height: 80vh;
+    width: 87%;
+    border-radius: 20px;
+    margin: auto;
     
+}
+
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.section-contents{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.section-title{
+    font-size: 80px;
+    font-weight: 800;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    font-weight: 600;
+    margin-top: 0px;
+    color: rgba(255, 0, 0, 0.693);
+}
+.sec-des{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.welcome {
+  display: flex;
+  gap: 70px;
+  background: url('../images/Vectorrr.png');
+  background-repeat: no-repeat;
+  width: 86%;
+  margin-left: 80px ;
+  margin-top: 100px;
+  padding-left: 120px;
+  padding-top: 40px;
+  border-radius: 25px; 
+  
+}
+
+.wel-title{
+    font-size: 80px;
     color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+.wel-des{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    
+}
+
+.wel-join{
+    color: #FFFFFF;
+    padding-bottom: 55px;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+
+.host{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(226, 194, 210, 0.69);
+    height: 50vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    padding-top: 80px;
 }
